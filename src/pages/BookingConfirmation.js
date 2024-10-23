@@ -22,7 +22,7 @@ const BookingConfirmation = () => {
     // Function to handle booking tickets
     const handleBooking = async () => {
         try {
-            const response = await axios.post('https://event-buzz-server-psi.vercel.app/api/bookings', {
+            const response = await axios.post('https://event-buzz-server-psi-psi.vercel.app/api/bookings', {
                 userId: userid,
                 eventId: event._id, // Ensure you're passing the correct event ID
                 seats: selectedSeats,

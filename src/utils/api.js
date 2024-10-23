@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = 'https://event-buzz-server-psi.vercel.app/api'; // Change this if your backend is hosted elsewhere
+const API_URL = 'https://event-buzz-server-psi-psi.vercel.app/api'; // Change this if your backend is hosted elsewhere
 
 // Auth API
 export const loginUser = async (credentials) => {
