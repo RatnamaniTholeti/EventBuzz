@@ -1,0 +1,36 @@
+/* src/pages/Home.css */
+.home-container {
+    padding: 20px;
+}
+
+.filter-container {
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.event-card {
+    background-color: white;
+    border: 1px solid #eaeaea;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.2s;
+}
+
+.event-card:hover {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+.event-details {
+    font-size: 0.9rem;
+    color: #555;
+    height: 100px; /* Adjust height for consistent card size */
+    overflow: hidden;
+}
+
+.img-fluid {
+    border-radius: 0.5rem 0.5rem 0 0;
+}

@@ -1,0 +1,93 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f59a;
+}
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 15px;
+  text-align: left;
+}
+/* styles.css */
+
+.card {
+  height: 500px; /* Fixed height for the card */
+}
+
+.card-img-top {
+  height: 200px; /* Set a consistent height for the image */
+  object-fit: cover; /* Cover ensures the image fills the space without distortion */
+  border-radius: 0.375rem 0.375rem 0 0; /* Rounded top corners */
+}
+
+/* Adjust button and title styles */
+.card-title {
+  color: #333; /* Dark text for the title */
+}
+
+.card-text {
+  font-size: 0.9rem; /* Font size for other text */
+}
+
+.btn {
+  background-color: #FF6B00; /* Customize button color */
+  border: none;
+}
+
+.btn:hover {
+  background-color: #FF8F00; /* Lighter color on hover */
+}
+/* Add to your CSS file */
+.seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the seats */
+}
+
+.seat {
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.seat:hover {
+  background-color: #4caf50; /* Change color on hover */
+}
+
+.selected {
+  background-color: #28a745; /* Selected seat color */
+}
+
+.ticket-dropdown {
+  width: 200px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #007bff; /* Border color */
+  background-color: #fff; /* White background for dropdown */
+  color: #333; /* Dark text color */
+  font-size: 16px; /* Font size for dropdown */
+}
+
+.ticket-dropdown:hover {
+  border-color: #0056b3; /* Darker border color on hover */
+}
